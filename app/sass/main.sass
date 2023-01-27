@@ -145,4 +145,38 @@
       position: relative
       z-index: 10
 
+.container
+  max-width: 1200px
+  margin: auto
+  padding: 0px $gutter
+
+.landing-section
+  padding: 80px 0px
+
+  h2
+    font-size: 34px
+    font-weight: 800
+    color: $dark
+    line-height: 1.2
+
+.section-ready
+  background-color: $light
+  .container
+    grid-template-columns: repeat(2, 1fr)
+  
+  .ready_left
+    border-right: 1px solid #dadada
+    font-size: 18px
+    padding:
+      top: 60px
+      bottom: 60px
+      right: 60px
+    
+    h2 
+      margin-top: 0px
+      margin-bottom: 40px
+  
+  .ready_right
+    padding-left: 40px
+
 @import "media" // Всегда в конце
